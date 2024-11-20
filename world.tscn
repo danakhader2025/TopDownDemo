@@ -1,0 +1,69 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtb5mcpgmdga"]
+
+[ext_resource type="PackedScene" uid="uid://ctp7he5ckt5lj" path="res://player.tscn" id="1_ek3yy"]
+[ext_resource type="PackedScene" uid="uid://dv8l2qd5ugkqj" path="res://zombie.tscn" id="2_qmaom"]
+
+[node name="World" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_ek3yy")]
+position = Vector2(559, 317)
+
+[node name="Zombie" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(66, 92)
+
+[node name="Zombie2" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(1045, 74)
+
+[node name="Zombie3" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(221, 537)
+
+[node name="Zombie4" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(-757, 36)
+
+[node name="Zombie5" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(2622, 332)
+
+[node name="Zombie6" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(1380, 1192)
+
+[node name="Zombie7" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(312, 1558)
+
+[node name="Zombie8" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(-713, 1024)
+
+[node name="Zombie9" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(632, -546)
+
+[node name="Zombie10" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(2779, -315)
+
+[node name="Zombie11" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(-2068, -365)
+
+[node name="Zombie12" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(-2573, 944)
+
+[node name="Zombie13" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(-1251, -1263)
+
+[node name="Zombie14" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(1726, -746)
+
+[node name="Zombie15" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(2715, 1332)
+
+[node name="Zombie16" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(-1876, 2047)
+
+[node name="Zombie17" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(-263, -1201)
+
+[node name="Zombie18" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(1067, 2257)
+
+[node name="Zombie19" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(1139, -1507)
+
+[node name="Zombie20" parent="." instance=ExtResource("2_qmaom")]
+position = Vector2(-570, 2314)
